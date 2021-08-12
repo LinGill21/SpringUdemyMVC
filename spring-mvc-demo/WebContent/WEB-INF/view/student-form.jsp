@@ -15,11 +15,14 @@
 	<br/>
 	Country:
 	<form:select path="country">
-		<form:option value = "Brazil" label="Brazil"/>
-		<form:option value = "France" label="France"/>
-		<form:option value = "US" label="US"/>
+		<form:options items="${student.countryOptions}"/>
 	</form:select>
-	
+	<br/>
+	Favorite Programming Language:
+	Java <form:radiobutton path="favoriteLanguage" value="java"/>
+	Python <form:radiobutton path="favoriteLanguage" value="python"/>
+	C <form:radiobutton path="favoriteLanguage" value="C"/>
+	<br/>
 	<input type ="submit" value = "Submit"/>
 	</form:form>
 </body>
