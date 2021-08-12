@@ -7,7 +7,7 @@
 	
 	<h2>Spring Demo MVC Demo - Form Page</h2>
 	
-	<form action="processForm" method ="GET">
+	<form action="processFormVersionTwo" method ="GET">
 		<input type="text" name = "studentName" placeholder="What is your name?"/>
 		<input type="submit"/>
 	</form>
