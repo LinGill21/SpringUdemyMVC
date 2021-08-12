@@ -13,6 +13,13 @@
 	<br/>
 	Last Name: <form:input path="lastName"/>
 	<br/>
+	Country:
+	<form:select path="country">
+		<form:option value = "Brazil" label="Brazil"/>
+		<form:option value = "France" label="France"/>
+		<form:option value = "US" label="US"/>
+	</form:select>
+	
 	<input type ="submit" value = "Submit"/>
 	</form:form>
 </body>
