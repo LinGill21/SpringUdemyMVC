@@ -23,6 +23,11 @@
 	Python <form:radiobutton path="favoriteLanguage" value="python"/>
 	C <form:radiobutton path="favoriteLanguage" value="C"/>
 	<br/>
+	Check which OS you know
+	Mac <form:checkbox path="operatingSystem" value = "Mac"/>
+	Windows <form:checkbox path="operatingSystem" value = "Windodw"/>
+	Linux <form:checkbox path="operatingSystem" value = "Linux"/>
+	<br/>
 	<input type ="submit" value = "Submit"/>
 	</form:form>
 </body>
