@@ -29,6 +29,7 @@ public class CustomerController {
 		return "customer-form";
 	}
 	@RequestMapping("/processForm")
+	//@vaild works for feild req and min/max
 	public String processForm(@Valid @ModelAttribute("customer")Customer theCustomer,
 			BindingResult theBindingResult) {
 		System.out.println("LastName"+theCustomer.getLastName()+"|");
