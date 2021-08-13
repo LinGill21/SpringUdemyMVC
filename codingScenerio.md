@@ -5,3 +5,6 @@ page and say Hello + the entered information
 
 # Adding Data to the Spring model
 We want a new method to process form data. THe method will read in the students name and convert it to uppercase. then add the uppercase verion to the model. 
+
+# Vaildation
+We are going to make a new calss customer and make sure the customer's last name is not null.
