@@ -8,3 +8,6 @@ We want a new method to process form data. THe method will read in the students 
 
 # Vaildation
 We are going to make a new calss customer and make sure the customer's last name is not null.
+
+#InitBinder
+we are going to use init binder to trim white space off an entry and if it is all whitespace we will return null
