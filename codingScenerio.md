@@ -11,3 +11,7 @@ We are going to make a new calss customer and make sure the customer's last name
 
 #InitBinder
 we are going to use init binder to trim white space off an entry and if it is all whitespace we will return null
+
+# Validation and Regular Expression
+We are going to validate a postal code using regular expression.
+THe user can only enter 5 digits
